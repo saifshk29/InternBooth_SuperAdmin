@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "bridgeinterntest-2a68c",
+    "public": "dist/public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
